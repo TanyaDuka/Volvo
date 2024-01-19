@@ -105,6 +105,7 @@
         <li class="cmp-list__item hidden-desktop">
          <a "sidenav_open"="" class="header__search--menu" data-nc="Link" data-nc-params-link="{
                         " event":="" href="javascript:;" rel="noopener" target="_blank" }"="">
+          Search
          </a>
         </li>
        </ul>
@@ -323,7 +324,7 @@
             </div>
            </div>
            <div class="form_group--email">
-            <label for="email">
+            <label for="email" style="display: none;">
              Label for input
             </label>
             <input autocomplete="on" class="input-form-reg-up" id="email" name="email" placeholder="E-post:" required="" type="email"/>
@@ -1828,10 +1829,9 @@
         <input name="task" type="hidden" value="process"/>
         <input name="country" type="hidden" value="se"/>
         <div class="form_group--name">
-         <input autocomplete="on" class="input-form-reg-up" name="name" placeholder="Namn:" required="">
-          <div class="help-block help-block-error">
-          </div>
-         </input>
+         <input autocomplete="on" class="input-form-reg-up" name="name" placeholder="Namn:" required=""/>
+         <div class="help-block help-block-error">
+         </div>
         </div>
         <div class="form_group--name">
          <input autocomplete="on" class="input-form-reg-up" name="lastname" placeholder="Efternamn:" required="" value=""/>
@@ -1839,7 +1839,7 @@
          </div>
         </div>
         <div class="form_group--email">
-         <label for="email1">
+         <label for="email1" style="display: none;">
           Label for input
          </label>
          <input autocomplete="on" class="input-form-reg-up" id="email1" name="email" placeholder="E-post:" required="" type="email"/>
