@@ -287,8 +287,10 @@
       <section class="mx-auto mb-24 sm:mb-24" id="about">
        <div class="w-full flex justify-center items-center sm:flex-col">
         <div class="relative pr-2 w-2/3 flex sm:pr-0 sm:w-full sm:mr-0 js-vid1 sm:mb-12 sm:block">
-         <video allowfullscreen="" autoplay="" class="block object-fill w-full rounded-custom overflow-hidden" controls="controls" id="video_main" muted="" src="media/00.mp4">
-         </video>
+            <video allowfullscreen="" autoplay="" class="block object-fill w-full rounded-custom overflow-hidden" controls="controls" id="video_main" muted="" src="media/00.mp4">
+                <track kind="captions" src="/" srclang="en" label="English">
+            </video>
+            
          <div class="play-btn">
          </div>
         </div>
@@ -323,7 +325,7 @@
             </div>
            </div>
            <div class="form_group--email">
-            <label for="email">
+            <label for="email" style="display: none;">
              Label for input
             </label>
             <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" id="email" name="email" placeholder="E-post:" required="" tabindex="0" type="email"/>
@@ -1838,7 +1840,7 @@
           </div>
          </div>
          <div class="form_group--email">
-          <label for="email1">
+          <label for="email1"  style="display: none;">
            Label for input
           </label>
           <input aria-label="Interactive Element" autocomplete="on" class="input-form-reg-up" id="email1" name="email" placeholder="E-post:" required="" tabindex="0" type="email"/>
